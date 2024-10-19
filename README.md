@@ -32,17 +32,17 @@ A simple desktop application to search for duplicate files in a specified direct
 1. Clone the repository to your computer:
 
     ```bash
-    git clone https://github.com/Junsious/MyPC.git
+    git clone https://github.com/Junsious/DupFinder.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd MyPC
+    cd DupFinder
     ```
 
 3. Build and run the program:
 
     ```bash
-    cargo run
+    cargo run --release
     ```
