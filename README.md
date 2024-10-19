@@ -21,3 +21,28 @@ A simple desktop application to search for duplicate files in a specified direct
   - `sha2`: For computing SHA-256 hashes.
   - `walkdir`: For recursively walking through directories.
  
+## Installation and Running
+
+### Requirements
+
+- **Rust**: Make sure you have [Rust](https://www.rust-lang.org/) installed (you can install it via [rustup](https://rustup.rs/)).
+
+### Steps to Run
+
+1. Clone the repository to your computer:
+
+    ```bash
+    git clone https://github.com/Junsious/MyPC.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd MyPC
+    ```
+
+3. Build and run the program:
+
+    ```bash
+    cargo run
+    ```
