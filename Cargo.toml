@@ -1,0 +1,21 @@
+[package]
+name = "DupFinder"
+version = "0.1.0"
+edition = "2021"
+windows = { version = "0.37.0", features = ["winapi"] }
+windows-subsystem = "windows"
+
+[[bin]]
+name = "DupFinder"
+path = "src/main.rs"
+
+
+[dependencies]
+sha2 = "0.10"
+walkdir = "2.3.3"
+eframe = "0.29.1"
+egui = "0.29.1"
+rayon = "1.7"
+rfd = "0.15"
+winapi = { version = "0.3", features = ["wincon", "winuser"] }
+
